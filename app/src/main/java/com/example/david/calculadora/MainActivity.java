@@ -10,9 +10,9 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     TextView pantalla;
-    Double aux;
     String operacionSeleccionada;
     Boolean sustituirPantalla;
+    Double aux;
     Double res;
     Double mem;
 
@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         operacionSeleccionada="";
         res=0.0;
         mem=0.0;
+        aux=0.0;
     }
 
     protected void leeNum(View view){
@@ -185,4 +186,30 @@ public class MainActivity extends AppCompatActivity {
             sustituirPantalla = true;
         }
     }
+
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putDouble("AUX", aux);
+        savedInstanceState.putString("OS", operacionSeleccionada);
+        savedInstanceState.putBoolean("SP", sustituirPantalla);
+        savedInstanceState.putDouble("RES", res);
+        savedInstanceState.putDouble("MEM", mem);
+        savedInstanceState.putString("PANT", pantalla.getText().toString());
+
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        aux = savedInstanceState.getDouble("AUX");
+        operacionSeleccionada = savedInstanceState.getString("OS");
+        sustituirPantalla = savedInstanceState.getBoolean("SP");
+        res = savedInstanceState.getDouble("RES");
+        mem = savedInstanceState.getDouble("MEM");
+        pantalla.setText(savedInstanceState.getString("PANT"));
+    }
+
 }
+
+
