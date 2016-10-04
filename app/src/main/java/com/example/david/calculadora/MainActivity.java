@@ -11,10 +11,10 @@ public class MainActivity extends AppCompatActivity {
 
     TextView pantalla;
     Double aux;
-    String operacionSeleccionada="";
+    String operacionSeleccionada;
     Boolean sustituirPantalla;
     Double res;
-    Double mem=0.0;
+    Double mem;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         pantalla = (TextView)findViewById(R.id.tvPantalla);
         sustituirPantalla=true;
+        operacionSeleccionada="";
+        res=0.0;
+        mem=0.0;
     }
 
     protected void leeNum(View view){
@@ -55,6 +58,30 @@ public class MainActivity extends AppCompatActivity {
         if(operador.getText().equals("/")){
             aux = valorPantalla();
             operacionSeleccionada = "divide";
+        }
+
+        if(operador.getText().equals("Sen")){
+            aux = valorPantalla();
+            operacionSeleccionada = "seno";
+            resuelve(view);
+        }
+
+        if(operador.getText().equals("Cos")){
+            aux = valorPantalla();
+            operacionSeleccionada = "coseno";
+            resuelve(view);
+        }
+
+        if(operador.getText().equals("Tan")){
+            aux = valorPantalla();
+            operacionSeleccionada = "tangente";
+            resuelve(view);
+        }
+
+        if(operador.getText().equals("Raiz")){
+            aux = valorPantalla();
+            operacionSeleccionada = "raiz";
+            resuelve(view);
         }
 
         if(operador.getText().equals("M+")){
@@ -126,6 +153,30 @@ public class MainActivity extends AppCompatActivity {
                 res = aux / valorPantalla();
                 pantalla.setText(res+"");
             }
+            sustituirPantalla = true;
+        }
+
+        if(operacionSeleccionada.equals("seno")){
+            res = Math.sin(valorPantalla());
+            pantalla.setText(res+"");
+            sustituirPantalla = true;
+        }
+
+        if(operacionSeleccionada.equals("coseno")){
+            res = Math.cos(valorPantalla());
+            pantalla.setText(res+"");
+            sustituirPantalla = true;
+        }
+
+        if(operacionSeleccionada.equals("tangente")){
+            res = Math.tan(valorPantalla());
+            pantalla.setText(res+"");
+            sustituirPantalla = true;
+        }
+
+        if(operacionSeleccionada.equals("raiz")){
+            res = Math.sqrt(valorPantalla());
+            pantalla.setText(res+"");
             sustituirPantalla = true;
         }
 
