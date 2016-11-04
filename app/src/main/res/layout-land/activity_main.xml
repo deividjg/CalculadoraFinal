@@ -30,44 +30,44 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/bMmas"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="M-"
                 android:layout_width="wrap_content"
                 android:id="@+id/bMmenos"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="MR"
                 android:layout_width="wrap_content"
                 android:id="@+id/bMemoRecall"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="CM"
                 android:layout_width="wrap_content"
                 android:id="@+id/bBorrarMemo"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -80,60 +80,60 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/bCe"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/naranjaPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="C"
                 android:layout_width="wrap_content"
                 android:id="@+id/bC"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/rojoPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="DEL"
                 android:layout_width="wrap_content"
                 android:id="@+id/bDelete"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/naranjaPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="/"
                 android:layout_width="wrap_content"
                 android:id="@+id/bDividir"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="Sen"
                 android:layout_width="wrap_content"
                 android:id="@+id/bSen"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -146,60 +146,60 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/b7"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="8"
                 android:layout_width="wrap_content"
                 android:id="@+id/b8"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="9"
                 android:layout_width="wrap_content"
                 android:id="@+id/b9"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="x"
                 android:layout_width="wrap_content"
                 android:id="@+id/bMulti"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="Cos"
                 android:layout_width="wrap_content"
                 android:id="@+id/bCos"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -212,61 +212,61 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/b4"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="0dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="5"
                 android:layout_width="wrap_content"
                 android:id="@+id/b5"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="0dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="6"
                 android:layout_width="wrap_content"
                 android:id="@+id/b6"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="0dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="-"
                 android:layout_width="wrap_content"
                 android:id="@+id/bRestar"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="0dp"
                 android:textStyle="normal|bold"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="Tan"
                 android:layout_width="wrap_content"
                 android:id="@+id/bTan"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
         </LinearLayout>
 
@@ -280,60 +280,60 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/b1"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="2"
                 android:layout_width="wrap_content"
                 android:id="@+id/b2"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="3"
                 android:layout_width="wrap_content"
                 android:id="@+id/b3"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="+"
                 android:layout_width="wrap_content"
                 android:id="@+id/bSumar"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="Raiz"
                 android:layout_width="wrap_content"
                 android:id="@+id/bRaiz"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeOperador"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
         </LinearLayout>
 
         <LinearLayout
@@ -346,31 +346,31 @@
                 android:layout_width="wrap_content"
                 android:id="@+id/b0"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="."
                 android:layout_width="wrap_content"
                 android:id="@+id/bComa"
                 android:layout_weight="1"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="leeNum"
                 android:textColor="@color/azulPerso"
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
                 android:textStyle="normal|bold"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
             <Button
                 android:text="="
                 android:layout_width="163dp"
                 android:id="@+id/bIgual"
-                android:textSize="30sp"
+                android:textSize="28sp"
                 android:onClick="resuelve"
                 android:width="200dp"
                 android:layout_weight="5.84"
@@ -378,7 +378,7 @@
                 android:background="@color/semiTransparencia"
                 android:padding="3dp"
                 android:textStyle="normal|bold"
-                android:layout_height="45dp" />
+                android:layout_height="42dp" />
 
         </LinearLayout>
 
